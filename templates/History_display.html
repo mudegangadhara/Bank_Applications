@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center> 
+        <h1>History_display</h1>
+        {% for MG in HSD %}
+                {{MG.Money}}
+        {% endfor %}
+        <a href="{% url 'Home' %}">Back</a>
+    </center>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,600,700,800,900$display=swap');
+
+*{
+    margin:20;
+    padding: 2;
+    font-family:'Poppins', serif;
+}
+#U1{
+    
+    position: absolute;
+    left: 430px;
+    bottom: 350px;
+    color: whitesmoke;
+}
+#F2{
+    background-image: url(https://wallpapercave.com/wp/wp6603070.png);
+    height: 500px;
+    padding: 200px;
+    color: whitesmoke;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+
+        <h2>Sending To Reciver</h2>
+        <form action="" method="POST">
+            {% csrf_token %}
+
+        <label for="mobile">Enter Your Mobile Number :</label>
+        <input type="number" name="mobile" id="mobile"><br><br>
+
+        <label for="money">Enter Money : </label>
+        <input type="text" name="money" id="money"><br><br>
+
+
+        <input type="submit" value="send_money">
+
+    </form>
+    </center>
+    
+</body>
+</html>
